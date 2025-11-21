@@ -119,3 +119,24 @@ h1{
   position: absolute;
   margin: auto;
 }
+
+
+#container{
+  border: 2px solid;
+}
+
+#minicontainer p{
+  background-color: red;
+}
+
+#container > p{
+  background-color: yellow;
+}
+
+#container ~ p{
+  background-color: blue;
+}
+
+#container + p{
+  background-color: green;
+}
