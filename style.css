@@ -1,9 +1,11 @@
 body{
-  background-color: slategrey;
+  background-color: RGB(200, 244, 244);
 }
 
 h1{
   font-family: verdana, arial, "courier new";
+  border-style: outset;
+  border-width: 26px;
 }
 
 #p1{
