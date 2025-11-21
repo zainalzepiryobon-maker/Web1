@@ -62,7 +62,7 @@ h1{
 
 #box3{
   background-color: red;
-  margin: auto
+  margin: auto;
 }
 
 <!--BORDER3-->
@@ -75,4 +75,13 @@ h1{
 #box5{
   float: right;
   margin-left: 10px;
+}
+
+<!--BORDER4-->
+
+#Placeholder1{
+  border: 5px solid;
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
 }
