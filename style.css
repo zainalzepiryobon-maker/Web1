@@ -1,23 +1,23 @@
 body{
-  background-color: slategrey
+  background-color: slategrey;
 }
 
 h1{
-  color: tomato
+  font-family: verdana, arial, "courier new";
 }
 
 #p1{
-  color: RGB(255, 155, 55)
+  font-family: "lucida console", "courier new";
 }
 
 #p2{
-  color: RGB(200, 138, 192)
+  font-size: 2em;
 }
 
 #p3{
-  color: #ab25fe
+  font-weight: bold;
 }
 
 #p4{
-  color: hsl(237, 40%, 36%)
+  font-style: italic;
 }
