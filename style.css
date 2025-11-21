@@ -91,6 +91,7 @@ h1{
   background-color: red;
   width: 75px;
   height: 75px;
+  display: inline;
 }
 
 #span1{
