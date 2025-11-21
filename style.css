@@ -10,6 +10,10 @@ h1{
 
 #p1{
   font-family: "lucida console", "courier new";
+  border-bottom: 10px outset RGB(180, 224, 224);
+  border-top: 5px inset RGB(180, 224, 224);
+  border-left 5px dotted RGB(180, 224, 224);
+  border-right: 10px dotted RGB(130, 174, 174);
 }
 
 #p2{
