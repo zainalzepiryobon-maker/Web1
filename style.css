@@ -1,6 +1,9 @@
 body{
   background-color: RGB(200, 244, 244);
+  flow-root: float;
 }
+
+<!--BORDER1-->
 
 h1{
   font-family: verdana, arial, "courier new";
@@ -36,6 +39,8 @@ h1{
   font-family: None
 }
 
+<!--BORDER2-->
+
 #box1{
   width: 100px;
   height: 100px;
@@ -58,4 +63,16 @@ h1{
 #box3{
   background-color: red;
   margin: auto
+}
+
+<!--BORDER3-->
+
+#box4{
+  float: left;
+  margin-right: 10px;
+}
+
+#box5{
+  float: right;
+  margin-left: 10px;
 }
