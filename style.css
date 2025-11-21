@@ -1,6 +1,5 @@
 body{
   background-color: RGB(200, 244, 244);
-  flow-root: float;
 }
 
 <!--BORDER1-->
@@ -8,7 +7,7 @@ body{
 h1{
   font-family: verdana, arial, "courier new";
   border: 25px outset RGB(190, 234, 234);
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 #p1{
@@ -36,23 +35,23 @@ h1{
 }
 
 #p5{
-  font-family: None
+  font-family: None;
 }
 
 <!--BORDER2-->
 
 #box1{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-color: white;
-  box-shadow: 4px 5px 3px
+  box-shadow: 4px 5px 3px;
 }
 
 .box{
   border: 5px solid;
-  font-size: 5em;
-  width: 250px;
-  height: 250px;
+  font-size: 2em;
+  width: 100px;
+  height: 100px;
 }
 
 #box2{
@@ -68,20 +67,35 @@ h1{
 <!--BORDER3-->
 
 #box4{
-  float: left;
+  float: Left;
   margin-right: 10px;
 }
 
 #box5{
-  float: right;
+  float: Right;
   margin-left: 10px;
 }
 
 <!--BORDER4-->
 
-#Placeholder1{
+#div1{
   border: 5px solid;
   height: 75px;
   width: 75px;
-  overflow: hidden;
+  overflow: auto;
+}
+
+<!--BORDER5-->
+
+#div2{
+  background-color: red;
+  width: 75px;
+  height: 75px;
+}
+
+#span1{
+  background-color: blue;
+  width: 75px;
+  height: 75px;
+  display: block;
 }
