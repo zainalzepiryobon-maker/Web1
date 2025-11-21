@@ -10,6 +10,9 @@ h1{
 
 #p1{
   font-family: "lucida console", "courier new";
+  
+  text-shadow: 3px 4px 2px;
+  
   border-bottom: 10px outset RGB(180, 224, 224);
   border-top: 5px inset RGB(180, 224, 224);
   border-left 5px dotted RGB(180, 224, 224);
@@ -18,6 +21,7 @@ h1{
 
 #p2{
   font-size: 2em;
+  text-shadow: 3px 4px 2px;
 }
 
 #p3{
@@ -26,4 +30,15 @@ h1{
 
 #p4{
   font-style: italic;
+}
+
+#p5{
+  font-family: None
+}
+
+#box1{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 4px 5px 3px
 }
