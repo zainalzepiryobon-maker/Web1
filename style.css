@@ -4,8 +4,8 @@ body{
 
 h1{
   font-family: verdana, arial, "courier new";
-  border-style: outset;
-  border-width: 26px;
+  border: 25px outset RGB(190, 234, 234);
+  border-radius: 25px
 }
 
 #p1{
